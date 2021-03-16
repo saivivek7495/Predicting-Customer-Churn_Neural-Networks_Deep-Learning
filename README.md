@@ -7,18 +7,18 @@ PROBLEM TYPE: CLASSIFICATION
 
 Domain: Telecommunication
 
-Problem Statement
+(I)Problem Statement :
 The major problem of Telecom companies is customer churn (loss of a customer to a competitor). The acquisition of a new customer is very expensive compared to retention of existing customers. Small percentage of reduction in churn improves huge margins to Telecom companies. The companies perform various target marketing activities or reward customer through offers and incentives, to retain a customer if he is identified before he churns. The current challenge, is to develop a deep learning based engine that predicts
 customers who are likely to churn.
 
 Metric: Accuracy
 
 
-Data Description
+(II) Data Description :
 Data presented contains attributes related to users’ information, the
 usage plans, charges billed, payment method etc, and the target column of interest is if the user has churned out or not. The task is to build a predictive model that can predict user ratings with reasonably good accuracy and sensitivity.
 
- Approach/Strategy -
+ (III) Approach/Strategy :
 i. Load the data and understand it; You will observe that its predictors
 belong to three different types, numeric/integer, categorical.
 ii. Exploratory analysis to analyse the data.
