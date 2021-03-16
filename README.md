@@ -37,4 +37,4 @@ the deep features, build and tune to a good model and observe the
 performance
 viii.Also, as there is class imbalance in the data, and recall, being an important metric for this problem is highly effected by the imbalance,
 try to work on mitigating the effect of class imbalance. Explore parameters like class weight while fitting the model, and analyse the
-performan
+performance.
