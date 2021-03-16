@@ -16,7 +16,7 @@ Metric: Accuracy
 
 Data Description
 Data presented contains attributes related to users’ information, the
-usage plans, charges billed, payment method etc, and the target column of interest is if the user has churned out or not. The task is to build a predictive model that can predict user ratings with reasonably good accuracy and sensitivity.
+usage plans, charges billed, payment method etc, and the target column of interest is if the user has churned out or not. The task is to build a predictive model that can predict user ratings with reasonably good accuracy and sensitivity.
 
  Approach/Strategy -
 i. Load the data and understand it; You will observe that its predictors
@@ -24,7 +24,7 @@ belong to three different types, numeric/integer, categorical.
 ii. Exploratory analysis to analyse the data.
 iii. Do necessary type conversions
 iv. Columns like CustomerID can be removed from the analysis
-v. Split the data into train and validation sets and performing preprocessing appropriately on each of them.
+v. Split the data into train and validation sets and performing preprocessing appropriately on each of them.
 • Deal with missing values if any
 • On numeric data : apply a standardisation technique, preferably
 using standard scaler
