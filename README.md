@@ -8,7 +8,7 @@ PROBLEM TYPE: CLASSIFICATION
 Domain: Telecommunication
 
 Problem Statement
-The major problem of Telecom companies is customer churn (loss of a customer to a competitor). The acquisition of a new customer is very expensive compared to retention of existing customers. Small percentage of reduction in churn improves huge margins to Telecom companies. The companies perform various target marketing activities or reward customer through offers and incentives, to retain a customer if he is identified before he churns. The current challenge, is to develop a deep learning based engine that predicts
+The major problem of Telecom companies is customer churn (loss of a customer to a competitor). The acquisition of a new customer is very expensive compared to retention of existing customers. Small percentage of reduction in churn improves huge margins to Telecom companies. The companies perform various target marketing activities or reward customer through offers and incentives, to retain a customer if he is identified before he churns. The current challenge, is to develop a deep learning based engine that predicts
 customers who are likely to churn.
 
 Metric: Accuracy
