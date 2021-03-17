@@ -15,28 +15,25 @@ Metric: Accuracy
 
 
 (II) Data Description :
-Data presented contains attributes related to users’ information, the
-usage plans, charges billed, payment method etc, and the target column of interest is if the user has churned out or not. The task is to build a predictive model that can predict user ratings with reasonably good accuracy and sensitivity.
+Data presented contains attributes related to users’ information, the usage plans, charges billed, payment method etc, and the target column of interest is if the user has churned out or not. The task is to build a predictive model that can predict user ratings with reasonably good accuracy and sensitivity.
 
  (III) Approach/Strategy :
 i. Loaded the data and understood it; You will observe that its predictors belong to three different types, numeric/integer, categorical.
 
 ii. Exploratory analysis to analyse the data.
 
-iii. Did necessary type conversions
+iii. Did necessary type conversions.
 
-iv. Columns like CustomerID can be removed from the analysis
+iv. Columns like CustomerID can be removed from the analysis.
 
 v. Split the data into train and validation sets and performing preprocessing appropriately on each of them.
 • Dealt with missing values
-• On numeric data : apply a standardisation technique, preferably
-using standard scaler
-• On categorical data: Apply one-hot encoding/label encoding as
-appropriate
+• On numeric data : applied  standardisation technique, preferably using standard scaler.
+• On categorical data: Applied one-hot encoding/label encoding as appropriate.
 
 vi. Built deep neural net model, compiled and fitted the model. Tuned it to improve validation accuracy/recall. Observed the performance
 
-vii. Using auto encoders, get deep features for the same input, and using the deep features, build and tune to a good model and observed the performance
+vii. Using auto encoders, got deep features for the same input, and using the deep features, built and tuned it to a good model and observed the performance
 
 viii.Also, as there is class imbalance in the data, and recall, being an important metric for this problem is highly effected by the imbalance,
 tried to work on mitigating the effect of class imbalance. Explored parameters like class weight while fitting the model, and analysed the performance.
